@@ -1,3 +1,6 @@
 "use strict";
-const saudacao = ['Douglas'];
-console.log(`Olá, ${saudacao}!`);
+function saudacaoNome(nome) {
+    return 'Olá,' + ' ' + nome + '!';
+}
+const saudacao = saudacaoNome('Douglas');
+console.log(saudacao);
